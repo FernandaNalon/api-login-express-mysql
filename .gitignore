@@ -1,0 +1,11 @@
+# node_modules não sobe porque:
+# é MUITO pesado;
+# pode ser recriado com:
+# npm install
+
+# .env não deve subir porque ele possui:
+# senha do banco;
+# informações sensíveis.
+
+node_modules/
+.env
